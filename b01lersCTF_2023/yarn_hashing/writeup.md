@@ -43,7 +43,7 @@ The function that hashes is `fold()`:
 ```
 It cycles `while skein < ply**2`, and skein is multiplied by 2 at each cycle, so it cycles ply-times (as said before).
 
-At each cycle two "blocks" are calculated. The first is checks the parity of the input number divided by two, and the second checks the parity of the input number xor-ed with the first.
+At each cycle two "blocks" are calculated. The first checks the parity of the input number divided by two, and the second checks the parity of the input number xor-ed with the first.
 
 At this point a `twist()` function is applied on x and y, and then based on the `block_x` and `block_y` the skein is summed to `x` and `y`. Remember the skein is just the power-of-two to the current cycle. Then the number is divided by four and the cycle continues.
 
