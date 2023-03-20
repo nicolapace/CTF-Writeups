@@ -200,7 +200,7 @@ print("flag = ", long_to_bytes(path))
 Let's run it:
 
 `
-flag =  b'bctf{k33p_y0ur_h4sh3s_cl0s3}`
+flag =  b'bctf{k33p_y0ur_h4sh3s_cl0s3}'`
 
 It works! But let's see more in depth....
 
