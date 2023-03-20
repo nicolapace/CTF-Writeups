@@ -92,9 +92,9 @@ Have you noticed now? Let me show you...
 
 It's the number of steps in this "fractal maze"! You can check it yourself! The "hashing" function `fold()` just takes the number of steps and walks the fractal to calculate the `(x, y)` position. Now we just need to calculate the number of steps given the position in the Fractal Maze.
 
-Btw the Fractal Maze is a 2-D Hilbert Curve (https://wikipedia.org/wiki/Hilbert_curve).
+Btw the Fractal Maze is a 2-D Hilbert Curve (https://wikipedia.org/wiki/Hilbert_curve)
 
-How can we count the number of steps!
+How can we count the number of steps?
 
 
 ## Divide and Conquer
