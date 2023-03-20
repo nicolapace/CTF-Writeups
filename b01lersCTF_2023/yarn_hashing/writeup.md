@@ -1,4 +1,4 @@
-Ok# yarn hashing (misc, 354 points, 21 solves)
+## yarn hashing (misc, 354 points, 21 solves)
 
 
 >Maybe if I weave the flag into a tight enough space, you won't be able to find it... Flag format: bctf{...}
@@ -7,7 +7,7 @@ Had a lot of fun with this challenge! I solved it just 2 minutes before the end 
 
 ## Overview
 
-The challenge consists of an algorithm which, given a string (the flag in this case) after converting it into an integer, hashes it giving 2 new numbers `(x, y)`. This hashing algorithm has a parameter `ply` that specifies the cycles of the algorithm.
+The challenge consists of an algorithm which, given a string (the flag in this case), after converting it into an integer, hashes it giving 2 new numbers `(x, y)`. This hashing algorithm has a parameter `ply` that specifies the cycles of the algorithm.
 
 For example: a `5-ply` algorithm on the number `10000` gives as output: `(16, 24)`.
 
