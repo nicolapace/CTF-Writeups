@@ -1,4 +1,4 @@
-# yarn hashing (misc, 354 points, 21 solves)
+Ok# yarn hashing (misc, 354 points, 21 solves)
 
 
 >Maybe if I weave the flag into a tight enough space, you won't be able to find it... Flag format: bctf{...}
@@ -103,9 +103,11 @@ The fractal is simmetrical in the up-down left-right. So it can be divided into 
 
 ![](imgs/3-ply-sol1.png)
 
-In each part the step walked are at least the steps in the the part before as described in the image.
+In each part the step walked are at least the steps in the part before as described in the image.
 
 So we can divide the fractal, locating the point each time and adding steps based on the position in the 4 parts.
+
+Each of the blocks counts `n**2` steps, with `n` equal to max_x/2 or (max_y/2).
 
 ![](imgs/3-ply-sol.png)
 
