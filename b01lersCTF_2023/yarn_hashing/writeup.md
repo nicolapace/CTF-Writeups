@@ -182,13 +182,13 @@ while ply>0:
     elif(pos_in_quad[0]==1 and pos_in_quad[1]==1):
         path += 2*max_path//4
 
-    elif(pos_in_quad[0]==1 and pos_in_quad[1]==0): # we need a twist and a flip
+    elif(pos_in_quad[0]==1 and pos_in_quad[1]==0): # we need a flip and a twist 
         path += 3*max_path//4
 
-        # twist
+        # flip
         y=max_dim//2-y-1
         x=max_dim//2-x-1
-        # flip
+        # twist
         cross = x
         x = y
         y = cross
