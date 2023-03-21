@@ -209,6 +209,6 @@ It works! But let's see more in depth....
 Let's plot the `(x,y)` in 4 quadrants at each steps of our solution and the `[block_x, block_y]` of the hashing algorithm:
 
 
-![](imgs/quadrants.png)
+![](imgs/quadrants_and_blocks.png)
 
 They are the same! We found a geometrical meaning to the blocks!
