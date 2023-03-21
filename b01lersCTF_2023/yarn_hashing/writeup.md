@@ -117,7 +117,7 @@ It works!
 
 Except... It doesn't.
 
-We are not considering the conditions were the path doesn't wrap around. For example if we move just one step to `d = 9`:
+We are not considering the conditions were the path wraps around and changes orientation. For example if we move just one step to `d = 9`:
 
 ![](imgs/3-ply-wrong.png)
 
